@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Menteve EEG Monitor Updates</title>
+        <link>https://menteve.in/updates/appcast.xml</link>
+        <description>Update feed for Menteve EEG Monitor</description>
+        <language>en</language>
+
+        <!-- Example update entry -->
+        <item>
+            <title>Version 0.0.1</title>
+            <description><![CDATA[
+                <h3>What's New in Version 0.0.1</h3>
+                <ul>
+                    <li>Initial release</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 11 Mar 2026 12:00:00 +0000</pubDate>
+
+            <!-- Version number (used for comparison) -->
+            <sparkle:version>0.0.1</sparkle:version>
+
+            <!-- Download URL for the installer -->
+            <enclosure
+                url="https://todo.in"
+                length="45000000"
+                type="application/octet-stream"
+                sparkle:installerArguments="/SILENT"
+                sparkle:signature="" />
+
+            <!-- Minimum system version (optional) -->
+            <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
+        </item>
+
+        <!-- Current version (1.0.0) - no need to list if this is the first release -->
+        <item>
+            <title>Version 0.0.1</title>
+            <description><![CDATA[
+                <h3>Initial Release</h3>
+                <ul>
+                    <li>Real-time EEG monitoring</li>
+                    <li>Multiple montage support</li>
+                    <li>EDF recording</li>
+                    <li>Impedance checking</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 10 Mar 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>1.0.0</sparkle:version>
+        </item>
+    </channel>
+</rss>
