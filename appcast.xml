@@ -8,49 +8,41 @@
 
         <!-- Example update entry -->
         <item>
-            <title>Version 0.0.1</title>
+            <title>Version 0.0.2</title>
             <description><![CDATA[
+                <h3>What's in this release(v0.0.2)?</h3>
                 <ul>
-                    <li>Initial release</li>
+                    <li>button behaviour</li>
                 </ul>
             ]]></description>
-            <pubDate>Tue, 11 Mar 2026 12:00:00 +0000</pubDate>
+            <pubDate>Tue, 11 Mar 2026 23:36:00 +0000</pubDate>
 
             <!-- Version number (used for comparison) -->
-            <sparkle:version>0.0.1</sparkle:version>
+            <sparkle:version>0.0.2</sparkle:version>
 
             <!-- Download URL for the installer -->
             <enclosure
-                url="https://github.com/menteve-tech/TEST/releases/download/v0.0.1/MenteveEEGMonitor-0.1.0.msi"
+                url="https://github.com/menteve-tech/TEST/releases/download/v0.0.2/MenteveEEGMonitor-0.0.2.msi"
                 length="45000000"
                 type="application/octet-stream"
-                sparkle:installerArguments="/SILENT"
-                sparkle:signature="MD0CHF9jaDFoICGp/qYbpDEBxRZL9BDbaSUL5uGJFq0CHQCNnRkw6FVjZ1p8yMWjC7DWhj0LXpPtdTiPhccJ" />
+                sparkle:installerArguments="/passive /norestart"
+                sparkle:signature="MD0CHQCQJ+8jsd/5etImydsjx1h06c0IG6hD9Bj02yUVAhwji8y5+u8vD8Pe55B8WJAAlevps5/uK8cusjrj" />
 
             <!-- Minimum system version (optional) -->
             <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
         </item>
 
-        <!-- Current version (1.0.0) - no need to list if this is the first release -->
+        <!-- Current version (0.0.2) - no need to list if this is the first release -->
         <item>
-            <title>Version 0.0.1</title>
+            <title>Version 0.0.2</title>
             <description><![CDATA[
-                <h3>Initial Release</h3>
+                <h3>What's in this release(v0.0.2)?</h3>
                 <ul>
-                    <li>Real-time OpenGL visualization engine</li>
-                    <li>Direct HID (USB) connection support</li>
-                    <li>Signal processing (bandpass, notch, CAR)</li>
-                    <li>EDF recording with raw data preservation</li>
-                    <li>Five montage display modes</li>
-                    <li>Impedance measurement interface</li>
-                    <li>LSL output support</li>
-                    <li>WinSparkle auto-update integration</li>
-                    <li>Welcome screen with device selection</li>
-                    <li>Configurable filter parameters</li>
+                    <li>Change the button behaviour</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 10 Mar 2026 12:00:00 +0000</pubDate>
-            <sparkle:version>0.0.1</sparkle:version>
+            <pubDate>Mon, 11 Mar 2026 23:36:00 +0000</pubDate>
+            <sparkle:version>0.0.2</sparkle:version>
         </item>
     </channel>
 </rss>
