@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Menteve EEG Monitor Updates</title>
-        <link>https://menteve.in/updates/appcast.xml</link>
+        <link>https://raw.githubusercontent.com/menteve-tech/TEST/refs/heads/main/appcast.xml</link>
         <description>Update feed for Menteve EEG Monitor</description>
         <language>en</language>
 
@@ -10,7 +10,6 @@
         <item>
             <title>Version 0.0.1</title>
             <description><![CDATA[
-                <h3>What's New in Version 0.0.1</h3>
                 <ul>
                     <li>Initial release</li>
                 </ul>
@@ -22,11 +21,11 @@
 
             <!-- Download URL for the installer -->
             <enclosure
-                url="https://todo.in"
+                url="https://github.com/menteve-tech/TEST/releases/download/v0.0.1/MenteveEEGMonitor-0.1.0.msi"
                 length="45000000"
                 type="application/octet-stream"
                 sparkle:installerArguments="/SILENT"
-                sparkle:signature="" />
+                sparkle:signature="MD0CHF9jaDFoICGp/qYbpDEBxRZL9BDbaSUL5uGJFq0CHQCNnRkw6FVjZ1p8yMWjC7DWhj0LXpPtdTiPhccJ" />
 
             <!-- Minimum system version (optional) -->
             <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
@@ -38,14 +37,20 @@
             <description><![CDATA[
                 <h3>Initial Release</h3>
                 <ul>
-                    <li>Real-time EEG monitoring</li>
-                    <li>Multiple montage support</li>
-                    <li>EDF recording</li>
-                    <li>Impedance checking</li>
+                    <li>Real-time OpenGL visualization engine</li>
+                    <li>Direct HID (USB) connection support</li>
+                    <li>Signal processing (bandpass, notch, CAR)</li>
+                    <li>EDF recording with raw data preservation</li>
+                    <li>Five montage display modes</li>
+                    <li>Impedance measurement interface</li>
+                    <li>LSL output support</li>
+                    <li>WinSparkle auto-update integration</li>
+                    <li>Welcome screen with device selection</li>
+                    <li>Configurable filter parameters</li>
                 </ul>
             ]]></description>
             <pubDate>Mon, 10 Mar 2026 12:00:00 +0000</pubDate>
-            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:version>0.0.1</sparkle:version>
         </item>
     </channel>
 </rss>
